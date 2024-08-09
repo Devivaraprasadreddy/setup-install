@@ -1,0 +1,107 @@
+Installation & Setup for Virtual Box: 
+
+ 
+
+Download for virtual box link and select package based on your operating system 
+
+https://www.virtualbox.org/wiki/Downloads 
+
+Steps: 
+
+Open virtual box. 
+
+Click new one. 
+
+Name: Give any name. 
+
+ISO image: select ISO ubuntu server file. 
+
+Tick skip unattended installation and click next button. 
+
+Hardware part {based on our requirement change the processors} then click next button. 
+
+Virtual hard disk part {minimum hard disk 20GB}. 
+
+And finish. 
+
+Next process 
+
+Select our machine then click the start button. 
+
+It will be redirected to the ubuntu server. 
+
+It will be automatically running the process. 
+
+It took some time. 
+
+After completing the process here asking. 
+
+Select the language: English {using arrow keys and enter button}. 
+
+Continue without updating. 
+
+Done. 
+
+Select ubuntu server. 
+
+Done. 
+
+Proxy address: no need. 
+
+Configure ubuntu archive mirror {its load some time}. 
+
+Select use on entire disk. 
+
+Confirm destructive action -> continue. 
+
+Profile setup. 
+
+Name: Prasad		Name: Prasad			Name: Prasad 
+
+Server name: server1	server name: server1clone		servername: server2 
+
+Username: reddy		username: reddy			username: reddy 
+
+Password: dsp121		password: 1234			password: 1234 
+
+Root login Details 
+
+Username: root 
+
+Password: 123456 
+
+ 
+
+Skip for now. 
+
+Done. 
+
+Done. 
+
+It will be running and take some time. {Installing}. 
+
+After completing the installation process, it will show the finish: cmd-in-target:success:curt in command in-target. 
+
+Then click close -> asking view full log or reboot now. 
+
+Click reboot now. 
+
+Asking login details and enter it. 
+
+It will be redirected to the server’s name. 
+
+Then the process completes back to vm box. 
+
+Click that machine select stop and powered off. 
+
+ 
+
+ 
+
+Installation on VMware Fusion and Setup Process 
+
+ 
+
+Same process for VMware Fusion 
+
+Please follow above steps 

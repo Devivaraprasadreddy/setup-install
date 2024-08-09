@@ -1,0 +1,17 @@
+Putty installation & Setup Process 
+
+Steps: 
+
+Go to terminal 
+
+Xcode-select –install (xcode) 
+
+Sudo port –v selfupdate (macports)  
+
+Sudo port install putty 
+
+Check putty 
+
+Cp /opt/local/bin/putty ~/Desktop/putty 
+
+And finally we have to install Xquartz 2.8.5  

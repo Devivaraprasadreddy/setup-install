@@ -1,0 +1,51 @@
+Create an AWS Account 
+
+Setup for AWS EC2 launch instance 
+
+Steps: 
+
+Open AWS account   
+
+Go to services 
+
+Click on EC2 
+
+Instances (running) 
+
+Launch instance (right corner) 
+
+Name (give any name of your machine) 
+
+Select OS (ubuntu) 
+
+Instant type (select free trail only) otherwise it will be charged 
+
+Key pair (create a new key pair with .ppk format) because we can access using putty 
+
+Download that file 
+
+Then launch instance (right side bottom) 
+
+Click on instances 
+
+Select server 
+
+Copy the IP address 
+
+Open putty 
+
+Paste the IP address in place of Host name 
+
+Saved sessions (ubuntu) 
+
+Go to ssh 
+
+Auth 
+
+Credentials 
+
+Browse the file of .ppk file 
+
+Open accept 
+
+Login as: ubuntu 

@@ -1,0 +1,48 @@
+connection between ansible local machine and AWS EC2
+
+launch an instance on AWS EC2
+
+Login putty with IP Address and Key-pair
+
+Go to Root user
+
+vi /etc/ssh/sshd_config
+
+Permitrootlogin yes
+
+Password Authentication Yes
+
+vi /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
+
+Password Authentication yes
+
+Passwd root
+
+New Password : XXXXXXX
+
+Retype Password : XXXXXX
+
+systemctl restart ssh
+
+systemctl status ssh
+
+* Dont Enable the ssh service
+
+root user Logout
+
+Ubuntu user Logout
+
+Again open putty login with ip Address and login as root user
+
+
+Come to local machine
+
+Go to vi /etc/ansible/hosts
+
+here add group [remote] 
+with IP Address of AWS EC2 <IP Address>
+
+ssh root@<AWS IP Address>
+ssh-copy-id root@<AWS IP Address>
+
+ansible all -m ping

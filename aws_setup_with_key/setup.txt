@@ -1,0 +1,29 @@
+Connection between local machine and remote machine of AWS EC2
+
+Launch an Instance
+
+Connect as putty or AWS Console
+
+Dont go to root only you are stay in ubuntu user
+Go to 
+
+cd .ssh/
+
+on that folder
+
+sudo vi authorized_keys
+
+Come to Local machine
+
+You can create a key on local or jenkins
+
+ssh-keygen
+
+After creating a key you can go to that public key copy that key and paste it into AWS EC2 machine authorized keys
+
+ssh -i <private_key> ubuntu@<IP Address of AWS EC2>
+
+Then After asking fingerprint --> yes
+
+You can login successful......
+

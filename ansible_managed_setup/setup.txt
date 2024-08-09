@@ -1,0 +1,76 @@
+Steps for Ansible Controller and Managed Node
+
+Create a Virtual Machine
+
+Open That machine
+
+Login
+
+sudo -i
+
+Change root password [passwd root]
+
+New Password : XXXXXX
+
+Retype Password : XXXXXX
+
+Password changed sucessfully
+
+Go to vi /etc/ssh/sshd_config
+
+Permitrootlogin --yes
+
+Password Authentication --yes
+
+Logout root user
+
+Logout normal user
+
+Open VM in putty session through IP Address
+
+Login:root
+
+Password : XXXXXXX
+
+Check Hostname [hostname]
+
+Change Hostname [hostnamectl set-hostname <hostname>]
+
+bash
+
+Again check is it changed or not
+
+Now Create key
+
+ssh-keygen
+
+Everything will be default
+
+File path : Enter
+
+Pharase : Enter
+
+Retype : Enter
+
+ssh--copy-id root@<IP Address>
+
+Then asking password we are already set so you can enter that password
+
+Now check system is connected or not
+
+ansible all -m ping
+
+you can check only one server or all servers at a time
+
+{
+	IP Address: .....
+	'ping:pong"
+}
+
+
+
+
+same process in other servers also
+
+
+Note : Every machine has connected with same network like Bridge Adapter
